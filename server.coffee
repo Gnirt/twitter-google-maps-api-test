@@ -4,10 +4,10 @@ Twit = require('twit')
 socketio = require('socket.io')
 
 T = new Twit(
-	consumer_key:			'FnNF0SgrkkvGG7Q95Gjyyy26J'
-	consumer_secret:		'5MbXEE0x8bN2FmTnS0NbQosfOZGKbdjtxZQhNjXsdTaCaj0a68'
-	access_token:			'502145429-3pePgc8BLAjwNmJxQCeyOzGbo19M5Gl5DRF178NT'
-	access_token_secret:	'1IjDu23U8uiUzwEfgt250pbAldS6xpXuXYUWWaSPZXTH2'
+	consumer_key:			''
+	consumer_secret:		''
+	access_token:			''
+	access_token_secret:	''
 )
 
 exports.startServer = (port, path, callback) ->
